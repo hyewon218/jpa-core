@@ -2,6 +2,7 @@
 <persistence version="2.2"
              xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+<!-- 이름을 줘야지 Persistence class가 정보를 잘 읽어갈 수 있다.-->
     <persistence-unit name="memo">
 <!--    Entity 클래스로 관리할 그 class의 경로-->
         <class>com.sparta.entity.Memo</class>
@@ -12,8 +13,10 @@
             <property name="jakarta.persistence.jdbc.password" value="Dmstnr0218!"/>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/memo"/>
 
-<!--        Memo Entity 정보를 읽고 Table을 create 해줌    -->
-            <property name="hibernate.hbm2ddl.auto" value="create" />
+<!--        Memo Entity 정보를 읽고 Table 을 create 해줌    -->
+<!--        drop : memo class 에 테이블이 있든 없든 drop 하고 테이블을 계속 만든다.    -->
+<!--        update : 변경이 된 것만 쿼리가 수행함    -->
+            <property name="hibernate.hbm2ddl.auto" value="update" />
 
 <!--        hibernate 에서 SQL을 자동으로 만들어 줌-->
             <property name="hibernate.show_sql" value="true"/>
