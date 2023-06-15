@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a408cc8a-a181-4e65-9465-0bf5fdd22b55" name="변경" comment="영속성 컨텍스트란 무엇일까">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PersistenceTest.java" afterDir="false" />
+    <list default="true" id="a408cc8a-a181-4e65-9465-0bf5fdd22b55" name="변경" comment="영속성 컨텍스트의 기능">
+      <change afterPath="$PROJECT_DIR$/src/test/java/EntityStateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +217,7 @@
       <workItem from="1686810464415" duration="4737000" />
       <workItem from="1686815797693" duration="61000" />
       <workItem from="1686815860393" duration="969000" />
-      <workItem from="1686816833624" duration="1600000" />
+      <workItem from="1686816833624" duration="2211000" />
     </task>
     <task id="LOCAL-00001" summary="Entity 이해하기">
       <created>1686812641038</created>
@@ -233,16 +233,35 @@
       <option name="project" value="LOCAL" />
       <updated>1686816278987</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="영속성 컨텍스트의 기능">
+      <created>1686818622381</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686818622381</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Entity 이해하기" />
     <MESSAGE value="영속성 컨텍스트란 무엇일까" />
-    <option name="LAST_COMMIT_MESSAGE" value="영속성 컨텍스트란 무엇일까" />
+    <MESSAGE value="영속성 컨텍스트의 기능" />
+    <option name="LAST_COMMIT_MESSAGE" value="영속성 컨텍스트의 기능" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
